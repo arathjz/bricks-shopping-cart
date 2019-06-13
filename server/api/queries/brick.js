@@ -29,25 +29,12 @@ const brickQueries = (app, db) => ({
 	getBricksByFilters: app.get('/api/bricks/:data', async (req, res) => {
 		try {
 			let filters = {};
+			// Filter bricks available || bricks by property || bricks by oner || bricks in shopping cart
 			if (Object.keys(req.params).length > 0) {
 				const data = JSON.parse(req.params.data);
-				// Filter bricks available
-				if (data.available) {
-					filters = { ...filters, ownerId: null, inShoppingCart: false };
-				}
-				// Filter bricks by property
-				if (data.propertyId) {
-					filters = { ...filters, propertyId: data.propertyId };
-				}
-				// Filter bricks by owner
-				if (data.ownerId) {
-					filters = { ...filters, ownerId: data.ownerId };
-				}
-
-				// Filter bricks in shoppingCart
-				if (data.inShoppingCart) {
-					filters = { ...filters, inShoppingCart: true };
-				}
+				Object.keys(data).forEach(key => {
+					filters = { ...filters, [key]: data[key] };
+				});
 			}
 
 			await releaseBricks(db);

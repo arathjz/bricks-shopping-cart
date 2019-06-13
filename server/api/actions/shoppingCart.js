@@ -169,8 +169,6 @@ const shoppingCartActions = (app, db) => ({
 			res.status(200);
 			return;
 		} catch (err) {
-			console.log(err);
-
 			res.json({
 				error: 'Something went wrong'
 			});
