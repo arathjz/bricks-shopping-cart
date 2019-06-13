@@ -4,8 +4,7 @@ module.exports = (sequelize, DataTypes) => {
 		{
 			firstName: DataTypes.STRING,
 			lastName: DataTypes.STRING,
-			hadShoppingCart: DataTypes.BOOLEAN,
-			shoppingCartDate: DataTypes.DATE
+			hasShoppingCart: DataTypes.BOOLEAN
 		},
 		{}
 	);

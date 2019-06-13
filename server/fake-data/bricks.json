@@ -3,307 +3,395 @@
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 1
+    "propertyId": 1,
+    "shoppingCartDate": null
+
   },
   {
     "price": 512423.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 1
+    "propertyId": 1,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51233.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 1
+    "propertyId": 1,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 1
+    "propertyId": 1,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 1
+    "propertyId": 1,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 1
+    "propertyId": 1,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 1
+    "propertyId": 1,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 1
+    "propertyId": 1,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 1
+    "propertyId": 1,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 1
+    "propertyId": 1,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 1
+    "propertyId": 1,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 2
+    "propertyId": 2,
+    "shoppingCartDate": null
+
   },
   {
     "price": 512423.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 2
+    "propertyId": 2,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51233.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 2
+    "propertyId": 2,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 2
+    "propertyId": 2,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 2
+    "propertyId": 2,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 2
+    "propertyId": 2,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 2
+    "propertyId": 2,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 2
+    "propertyId": 2,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 2
+    "propertyId": 2,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 2
+    "propertyId": 2,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 2
+    "propertyId": 2,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 3
+    "propertyId": 3,
+    "shoppingCartDate": null
+
   },
   {
     "price": 512423.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 3
+    "propertyId": 3,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51233.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 3
+    "propertyId": 3,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 3
+    "propertyId": 3,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 3
+    "propertyId": 3,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 3
+    "propertyId": 3,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 3
+    "propertyId": 3,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 3
+    "propertyId": 3,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 3
+    "propertyId": 3,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 3
+    "propertyId": 3,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 3
+    "propertyId": 3,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 4
+    "propertyId": 4,
+    "shoppingCartDate": null
+
   },
   {
     "price": 512423.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 4
+    "propertyId": 4,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51233.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 4
+    "propertyId": 4,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 4
+    "propertyId": 4,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 4
+    "propertyId": 4,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 4
+    "propertyId": 4,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 4
+    "propertyId": 4,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 4
+    "propertyId": 4,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 4
+    "propertyId": 4,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 4
+    "propertyId": 4,
+    "shoppingCartDate": null
+
   },
   {
     "price": 51243.00,
     "inShoppingCart": false,
     "buyedAt": null,
     "ownerId": null,
-    "propertyId": 4
+    "propertyId": 4,
+    "shoppingCartDate": null
+
   }
 ]

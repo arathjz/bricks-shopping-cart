@@ -1,19 +1,16 @@
 [{
     "firstName": "Arath",
     "lastName": "Jimenez",
-    "hadShoppingCart": false,
-    "shoppingCartDate": null
+    "hasShoppingCart": false
   },
   {
     "firstName": "Jose",
     "lastName": "Ramirez",
-    "hadShoppingCart": false,
-    "shoppingCartDate": null
+    "hasShoppingCart": false
   },
   {
     "firstName": "Arturo",
     "lastName": "Perez",
-    "hadShoppingCart": false,
-    "shoppingCartDate": null
+    "hasShoppingCart": false
   }
 ]

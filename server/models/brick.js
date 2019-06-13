@@ -4,6 +4,7 @@ module.exports = (sequelize, DataTypes) => {
 		{
 			price: DataTypes.FLOAT,
 			inShoppingCart: DataTypes.BOOLEAN,
+			shoppingCartDate: DataTypes.DATE,
 			buyedAt: DataTypes.DATE,
 			ownerId: DataTypes.INTEGER,
 			propertyId: DataTypes.INTEGER

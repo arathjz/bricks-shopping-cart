@@ -20,6 +20,11 @@ const brickQueries = (app, db) => ({
 				if (data.ownerId) {
 					filters = { ...filters, ownerId: data.ownerId };
 				}
+
+				// Filter bricks in shoppingCart
+				if (data.inShoppingCart) {
+					filters = { ...filters, inShoppingCart: true };
+				}
 			}
 			const data = await db.Brick.findAll({
 				where: filters
