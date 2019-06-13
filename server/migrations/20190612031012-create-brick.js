@@ -1,4 +1,3 @@
-'use strict';
 module.exports = {
 	up: async (queryInterface, Sequelize) => {
 		await queryInterface.createTable('Bricks', {
@@ -13,6 +12,11 @@ module.exports = {
 			},
 			inShoppingCart: {
 				type: Sequelize.BOOLEAN
+			},
+			buyedAt: {
+				allowNull: true,
+				type: Sequelize.DATE,
+				defaultValue: Sequelize.literal('CURRENT_TIMESTAMP()')
 			},
 			createdAt: {
 				allowNull: false,
@@ -31,7 +35,7 @@ module.exports = {
 				type: Sequelize.INTEGER
 			},
 			ownerId: {
-				allowNull: false,
+				allowNull: true,
 				type: Sequelize.INTEGER
 			}
 		});

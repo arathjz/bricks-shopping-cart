@@ -1,0 +1,19 @@
+[{
+    "firstName": "Arath",
+    "lastName": "Jimenez",
+    "hadShoppingCart": false,
+    "shoppingCartDate": null
+  },
+  {
+    "firstName": "Jose",
+    "lastName": "Ramirez",
+    "hadShoppingCart": false,
+    "shoppingCartDate": null
+  },
+  {
+    "firstName": "Arturo",
+    "lastName": "Perez",
+    "hadShoppingCart": false,
+    "shoppingCartDate": null
+  }
+]

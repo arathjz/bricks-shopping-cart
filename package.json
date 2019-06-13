@@ -4,12 +4,15 @@
   "private": true,
   "scripts": {
     "start:client": "react-scripts start",
-    "start:server": "nodemon --exec babel-node server/index.js",
-    "db:init": "cd ./server && sequelize db:create",
-    "seq": "cd ./server && sequelize",
     "build:client": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start:server": "nodemon --exec babel-node server/index.js",
+    "db:init": "cd ./server && sequelize db:create",
+    "db:drop": "cd ./server && sequelize db:drop",
+    "db:seed": "cd ./server && sequelize db:seed:all",
+    "db:erase": "cd ./server && sequelize db:seed:undo:all",
+    "seq": "cd ./server && sequelize"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -29,6 +32,7 @@
   "dependencies": {
     "apollo-boost": "^0.4.2",
     "apollo-server-express": "^2.6.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "body-parser": "^1.19.0",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
