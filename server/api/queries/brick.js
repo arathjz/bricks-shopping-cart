@@ -29,11 +29,12 @@ const brickQueries = (app, db) => ({
 	getBricksByFilters: app.get('/api/bricks/:data', async (req, res) => {
 		try {
 			let filters = {};
-			// Filter bricks available || bricks by property || bricks by oner || bricks in shopping cart
+			// Filter bricks available || bricks by propertyId || bricks by owner || bricks in shopping cart
 			if (Object.keys(req.params).length > 0) {
 				const data = JSON.parse(req.params.data);
 				Object.keys(data).forEach(key => {
-					filters = { ...filters, [key]: data[key] };
+					if (key === 'available') filters = { ...filters, ownerId: null };
+					else filters = { ...filters, [key]: data[key] };
 				});
 			}
 
@@ -45,14 +46,14 @@ const brickQueries = (app, db) => ({
 			return res.json({ data });
 		} catch (err) {
 			return res.json({
-				error: 'Invalid params'
+				error: 'Invalid Params'
 			});
 		}
 	}),
 	getBrick: app.get('/api/brick/:id', async (req, res) => {
 		if (isNaN(Number(req.params.id))) {
 			return res.json({
-				error: 'Invalid params'
+				error: 'Invalid Params'
 			});
 		}
 		const data = await db.Brick.findOne({

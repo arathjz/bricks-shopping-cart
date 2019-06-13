@@ -14,7 +14,7 @@ const shoppingCartActions = (app, db) => ({
 			// Check if body params are valid
 			if (isNaN(userId) || isNaN(brickId)) {
 				return res.json({
-					error: 'Invalid params'
+					error: 'Invalid Params'
 				});
 			}
 
@@ -80,7 +80,7 @@ const shoppingCartActions = (app, db) => ({
 			// Check if body params are valid
 			if (isNaN(userId) || isNaN(brickId)) {
 				return res.json({
-					error: 'Invalid params'
+					error: 'Invalid Params'
 				});
 			}
 
@@ -138,7 +138,7 @@ const shoppingCartActions = (app, db) => ({
 			// Check if body params are valid
 			if (isNaN(userId)) {
 				return res.json({
-					error: 'Invalid params'
+					error: 'Invalid Params'
 				});
 			}
 
@@ -188,7 +188,7 @@ const shoppingCartActions = (app, db) => ({
 			// Check if body params are valid
 			if (isNaN(userId)) {
 				return res.json({
-					error: 'Invalid params'
+					error: 'Invalid Params'
 				});
 			}
 
