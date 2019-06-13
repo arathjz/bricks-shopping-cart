@@ -30,6 +30,7 @@ const shoppingCartActions = (app, db) => ({
 				return;
 			}
 
+			// Update fields
 			const results = await Promise.all([
 				db.Brick.update(
 					{
@@ -83,6 +84,7 @@ const shoppingCartActions = (app, db) => ({
 				});
 			}
 
+			// Update fields
 			await db.Brick.update(
 				{
 					ownerId: null,
@@ -99,6 +101,7 @@ const shoppingCartActions = (app, db) => ({
 				where: { ownerId: userId, inShoppingCart: true }
 			});
 
+			// If user bricks are 0 then userShoppingCar is set to false
 			if (bricksOfUser.length === 0) {
 				await db.User.update(
 					{
@@ -116,7 +119,6 @@ const shoppingCartActions = (app, db) => ({
 			res.status(200);
 			return;
 		} catch (err) {
-			console.log(err);
 			res.json({
 				error: 'Something went wrong'
 			});
@@ -140,6 +142,7 @@ const shoppingCartActions = (app, db) => ({
 				});
 			}
 
+			// Set fields to default values
 			await Promise.all([
 				db.Brick.update(
 					{
@@ -191,6 +194,7 @@ const shoppingCartActions = (app, db) => ({
 				});
 			}
 
+			// Complete purchase
 			await Promise.all([
 				db.Brick.update(
 					{

@@ -1,5 +1,27 @@
+import { Op } from 'sequelize';
+import moment from 'moment';
+
+// Release bricks that has been in shoppingCart more than two days
+const releaseBricks = async db =>
+	await db.Brick.update(
+		{
+			ownerId: null,
+			inShoppingCart: false,
+			shoppingCartDate: null
+		},
+		{
+			where: {
+				inShoppingCart: true,
+				shoppingCartDate: {
+					[Op.lte]: moment().subtract(2, 'days').format()
+				}
+			}
+		}
+	);
+
 const brickQueries = (app, db) => ({
 	getBricks: app.get('/api/bricks', async (_, res) => {
+		await releaseBricks(db);
 		const data = await db.Brick.findAll();
 		return res.json({ data });
 	}),
@@ -26,6 +48,8 @@ const brickQueries = (app, db) => ({
 					filters = { ...filters, inShoppingCart: true };
 				}
 			}
+
+			await releaseBricks(db);
 			const data = await db.Brick.findAll({
 				where: filters
 			});
