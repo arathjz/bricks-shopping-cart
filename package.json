@@ -13,6 +13,7 @@
     "db:drop": "cd ./server && sequelize db:drop",
     "db:seed": "cd ./server && sequelize db:seed:all",
     "db:erase": "cd ./server && sequelize db:seed:undo:all",
+    "test:server": "mocha ./server/tests --recursive",
     "seq": "cd ./server && sequelize"
   },
   "eslintConfig": {
@@ -50,8 +51,11 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
     "concurrently": "^4.1.0",
     "faker": "^4.1.0",
+    "mocha": "^6.1.4",
     "nodemon": "^1.19.1",
     "sequelize-cli": "^5.5.0"
   }

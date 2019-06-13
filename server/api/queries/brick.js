@@ -23,6 +23,7 @@ const brickQueries = (app, db) => ({
 	getBricks: app.get('/api/bricks', async (_, res) => {
 		await releaseBricks(db);
 		const data = await db.Brick.findAll();
+		res.status(200);
 		return res.json({ data });
 	}),
 	getBricksByFilters: app.get('/api/bricks/:data', async (req, res) => {
@@ -53,6 +54,7 @@ const brickQueries = (app, db) => ({
 			const data = await db.Brick.findAll({
 				where: filters
 			});
+			res.status(200);
 			return res.json({ data });
 		} catch (err) {
 			return res.json({
@@ -69,6 +71,7 @@ const brickQueries = (app, db) => ({
 		const data = await db.Brick.findOne({
 			where: { id: Number(req.params.id) }
 		});
+		res.status(200);
 		return res.json({ data });
 	})
 });
