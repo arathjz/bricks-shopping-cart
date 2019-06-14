@@ -61,6 +61,9 @@ const brickQueries = (app, db) => ({
 		});
 		res.status(200);
 		return res.json({ data });
+	}),
+	redirectToBricks: app.get('/api/brick', async (req, res) => {
+		res.redirect('/api/bricks');
 	})
 });
 

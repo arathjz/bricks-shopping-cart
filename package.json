@@ -5,8 +5,6 @@
   "scripts": {
     "start:client": "react-scripts start",
     "build:client": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "start:server": "nodemon --exec babel-node server/index.js",
     "db:init": "cd ./server && sequelize db:create && yarn db:migrate && yarn db:seed",
     "db:migrate": "cd ./server && sequelize db:migrate",
