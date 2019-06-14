@@ -25,7 +25,7 @@ const shoppingCartActions = (app, db) => ({
 
 			if (brick.ownerId) {
 				res.json({
-					error: 'Brick already has owner'
+					error: 'Brick already has an owner'
 				});
 				return;
 			}
