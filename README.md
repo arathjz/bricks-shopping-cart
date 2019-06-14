@@ -69,7 +69,7 @@ NODE_PATH=src/
 
 ## API Documentation
 
-This project has an implementation of a REST API which runs in port 8080. The routes are descibred as following:
+This project has an implementation of a REST API which runs in port 8080. The routes are described as following:
 
 ```
 localhost:8080/api/users
