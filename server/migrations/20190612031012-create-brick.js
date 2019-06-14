@@ -41,8 +41,6 @@ module.exports = {
 		});
 	},
 	down: async (queryInterface, Sequelize) => {
-		await queryInterface.removeConstraint('Bricks', 'brickProperty');
-		await queryInterface.removeConstraint('Bricks', 'brickUser');
 		return queryInterface.dropTable('Bricks');
 	}
 };
