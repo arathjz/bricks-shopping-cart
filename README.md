@@ -61,7 +61,10 @@ NODE_PATH=src/
 
 ## Models and API architecture
 
+- Models
 <img src="./diagrams/models.png" width="880" alt="Models diagram" />
+
+- API architecure
 <img src="./diagrams/api-architecture.png" width="880" alt="API diagram" />
 
 ## API Documentation
