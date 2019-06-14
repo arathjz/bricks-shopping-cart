@@ -59,7 +59,7 @@ class Provider extends Component {
 			`${apiUrl}/bricks/{"ownerId": ${ownerId}}`
 		);
 		const { data: { data: bricks } } = response;
-		this.setState({ bricks });
+		this.setState({ bricks: bricks.filter(brick => !brick.inShoppingCart) });
 	};
 
 	getBricksUserShoppingCart = async () => {
