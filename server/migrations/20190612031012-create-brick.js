@@ -39,28 +39,6 @@ module.exports = {
 				type: Sequelize.INTEGER
 			}
 		});
-
-		await queryInterface.addConstraint('Bricks', ['propertyId'], {
-			type: 'foreign key',
-			name: 'brickProperty',
-			references: {
-				table: 'Properties',
-				field: 'id'
-			},
-			onDelete: 'cascade',
-			onUpdate: 'no action'
-		});
-
-		return queryInterface.addConstraint('Bricks', ['ownerId'], {
-			type: 'foreign key',
-			name: 'brickUser',
-			references: {
-				table: 'Users',
-				field: 'id'
-			},
-			onDelete: 'cascade',
-			onUpdate: 'no action'
-		});
 	},
 	down: async (queryInterface, Sequelize) => {
 		await queryInterface.removeConstraint('Bricks', 'brickProperty');
